@@ -22,56 +22,56 @@ function build() {
             button1.style.display = "block";
             button2.style.display = "none";
             mainText = main[state];
-            btext = button[state];
-            smallText = small[state];
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state];
+            smallBtnText = smallButton[state];
             break;
         case 1:
             button1.style.display = "block";
             button2.style.display = "block";
             mainText = main[state];
-            btext = button[state];
-            smallText = small[state];
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state];
+            smallBtnText = smallButton[state];
             break;
         case 2:
             button1.style.display = "block";
             button2.style.display = "block";
             mainText = main[state];
-            btext = button[state];
-            smallText = small[state];
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state];
+            smallBtnText = smallButton[state];
             break;
         case 3:
             button1.style.display = "block";
             button2.style.display = "block";
             mainText = main[state];
-            btext = button[state];
-            smallText = small[state];
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state];
+            smallBtnText = smallButton[state];
             break;
         case 4:
             case4();
             button1.style.display = "block";
             button2.style.display = "block";
             mainText = string;
-            btext = button[state];
-            smallText = small[state];
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state];
+            smBtnText = smallButton[state];
             break;
         case 5:
             button1.style.display = "none";
             button2.style.display = "block";
             mainText = randomSymbol, newRandomSymbol;
-            btext = button[state];
-            smallText = small[state] + random9;
-            smallBText = smallButton[state];
+            btntext = button[state];
+            smText = small[state] + random9;
+            smBtnText = smallButton[state];
             break;
     }
     firstText.innerHTML = mainText;
-    secondText.innerHTML = btext;
-    thirdText.innerHTML = smallText;
-    fourthText.innerHTML = smallBText;
+    secondText.innerHTML = btntext;
+    thirdText.innerHTML = smText;
+    fourthText.innerHTML = smBtnText;
 
 }
 var button1 = document.querySelector("#next");
